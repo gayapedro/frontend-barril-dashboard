@@ -1,0 +1,32 @@
+[class~='MuiStepIcon-root'] {
+  color: #c9ccd14d !important;
+}
+
+[class~='MuiStepIcon-completed'] {
+  color: #0063354d !important;
+  fill: black;
+}
+
+[class~='MuiStepIcon-active'] {
+  color: #d132014d !important;
+}
+
+.MuiStepIcon-root [class~='MuiStepIcon-text'] {
+  fill: #393c40 !important;
+}
+
+.MuiStepIcon-active [class~='MuiStepIcon-text'] {
+  fill: #d13201 !important;
+}
+
+.MuiStepIcon-completed [class~='MuiStepIcon-text'] {
+  fill: #006335 !important;
+}
+
+.MuiPaper-root {
+  background-color: transparent !important;
+}
+
+.MuiList-root {
+  background-color: white !important;
+}
