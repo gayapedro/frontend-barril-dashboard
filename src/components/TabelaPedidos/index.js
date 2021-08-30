@@ -37,7 +37,6 @@ function TabelaPedidos({ setModalDetalhe, setIdPedido, toggle }) {
         const dados = await response.json();
         if (!response.ok) {
           setLoading(false);
-          toast.error('Erro ao buscar pedidos.', toastOpts);
           return;
         }
         setLoading(false);
