@@ -4,7 +4,6 @@ const useStyles = makeStyles((theme) => ({
   backdrop: {
     position: 'absolute',
     top: 0,
-    bottom: 0,
     width: '100%',
     backgroundColor: 'rgba(32,32,32,0.6)',
     backdropFilter: 'blur(12px)',
